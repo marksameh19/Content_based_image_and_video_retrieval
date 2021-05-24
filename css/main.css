@@ -1,0 +1,53 @@
+body {
+  background-image: url("../images/4.jpg");
+  background-size: 1550px 800px;
+  height: 100%;
+  width: 100%;
+}
+.b2 {
+  font-size: 50px;
+  margin-top: 300px;
+  margin-left: 50px;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 218, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+.b1 {
+  font-size: 50px;
+  margin-top: 300px;
+  margin-left: 280px;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 218, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+.modal-header {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 218, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+
+.b3 {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 218, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+.modal-body,
+.modal-footer {
+  background-color: rgb(243, 193, 236);
+}
