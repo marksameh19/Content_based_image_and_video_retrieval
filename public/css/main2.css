@@ -1,0 +1,33 @@
+body {
+  background-image: url("../images2/3.jpg");
+  background-size: 1550px 800px;
+  height: 100%;
+  width: 100%;
+}
+.b2 {
+  margin-top: 17px;
+}
+.c1 {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 218, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+.b2,
+.b3 {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(253, 29, 218, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+.im {
+  width: 400px;
+  max-height: 400px;
+  margin: 10px;
+  display: inline;
+}
