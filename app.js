@@ -56,6 +56,24 @@ app.post("/upload", upload.single("img"), (req, res) => {
   });
 });
 
+app.post("/upload_video", upload.single("video"), (req, res) => {
+  const tempPath = req.file.path;
+  const targetPath = path.join(__dirname, "./uploads/video.mp4");
+  fs.rename(tempPath, targetPath, (err) => {
+    const python = spawn("python", ["main_cbvr.py", req.body.video_limit]);
+    python.stdout.on("data", (data) => {
+      dataFromPython = data.toString();
+      console.log(dataFromPython);
+      let final_data = dataFromPython
+        .split("'")
+        .join("")
+        .slice(1, -3)
+        .split(",");
+      res.render("videos.ejs", { videos: final_data });
+    });
+  });
+});
+
 app.get("/", (req, res) => {
   res.render("index");
 });
