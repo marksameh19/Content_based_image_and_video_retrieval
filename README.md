@@ -69,3 +69,37 @@ Naive Video Similarity
 ![NVS](https://github.com/marksameh19/Content_based_image_and_video_retrieval/blob/master/samples/cbvr.gif)
 
 
+### How to run the system
+
+#### First:
+> you need to run these python scripts (Depends on what system you run on and what version you use)
+###### For Windows users :
+```python
+py save_cbvr_to_db.py
+py save_to_db.py
+```
+###### For Linux users :
+```python
+python3 save_cbvr_to_db.py
+python3 save_to_db.py
+```
+> and wait untill the database build process is finished
+
+
+#### Second:
+> you need to build the NodeJS server:
+
+```NodeJS
+npm install
+```
+Third :
+
+> You now need to run the NodeJS server 
+
+```NodeJS
+npm strat
+```
+
+
+
+**Enjoy our Content based Multimedia Retrieval System**
