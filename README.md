@@ -53,7 +53,7 @@ also we compare the videos by applying the NVS(Naive Video Similarity) for all k
 ### Database & Dataset
 For our system we used the **Random short animation videos from youtube** for dataset , and for each video we extract the keyframes and we saved a json file contains the features extracted for every frame in the video.
 
-We used a SQL database that contains _One_ tabel, the table contains _three attributes_ (video_name, video_dir and video_json)
+We used a SQL database that contains _One_ table, the table contains _three attributes_ (video_name, video_dir and video_json)
 
 The **video_json** attribute is where we saved the json file of the video frames.
 
