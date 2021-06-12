@@ -97,7 +97,7 @@ Third :
 > You now need to run the NodeJS server 
 
 ```NodeJS
-npm strat
+npm start
 ```
 
 
