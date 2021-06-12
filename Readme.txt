@@ -22,7 +22,7 @@ Third :
 
 You now need to run the NodeJS server 
 
-npm strat 
+npm start 
 
 
 
